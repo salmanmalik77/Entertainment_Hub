@@ -1,5 +1,7 @@
 {
   "name": "entertainment-hub",
+  "homepage": "https://salmanmalik77.github.io/Entertainment_Hub",
+  
   "version": "0.1.0",
   "private": true,
   "dependencies": {
