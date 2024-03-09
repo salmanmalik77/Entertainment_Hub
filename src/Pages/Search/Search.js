@@ -60,8 +60,10 @@ const Search = () => {
             label="Search"
             variant="filled"
             InputProps={{ style: { color: "white" } }}
+            InputLabelProps={{ style: { color: "white" } }} // Set label color here
             onChange={(e) => setSearchText(e.target.value)}
           />
+
           <Button
             onClick={fetchSearch}
             variant="contained"
