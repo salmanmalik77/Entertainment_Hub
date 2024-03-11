@@ -23,10 +23,10 @@
   
   height: 100%;
   width: 100%;
-  /* overflow-y: scroll; */
+ 
   overflow-y: scroll;
   scrollbar-width: none;
-  height: 100vh; /* Add a specific height */
+ 
 }
 
 .ContentModal::-webkit-scrollbar {
@@ -42,6 +42,7 @@
   font-family: "Roboto", sans-serif;
   justify-content: space-evenly;
   font-weight: 300;
+  overflow-y: scroll;
 }
 
 .ContentModal__title {
@@ -79,6 +80,7 @@
     flex-direction: row;
     justify-content: space-around;
     padding: 10px 0;
+    overflow-y: scroll;
   }
   .ContentModal__about {
     width: 58%;
